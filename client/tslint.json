@@ -13,9 +13,10 @@
         "no-empty": false,
         "trailing-comma": false,
         "arrow-parens": false,
-        "member-access": false,
+        "max-classes-per-file": false,
         "variable-name": false,
-        "interface-name": false
+        "interface-name": false,
+        "no-empty-interface": false
     },
     "rulesDirectory": []
 }
