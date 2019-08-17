@@ -54,7 +54,7 @@ let arr1: ArrInter = [1, 'a']
 
 // 函数
 type AddFunc = (num1: number, num2: number) => number
-const add: AddFunc = (n1, n2) => n1 + n2
+// const add: AddFunc = (n1, n2) => n1 + n2
 
 // 索引
 // interface RoleDic {
