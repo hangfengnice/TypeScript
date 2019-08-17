@@ -1,3 +1,5 @@
-import './example/basic-type'
+// import './example/basic-type'
+// import "./example/symbol";
+import './example/interface';
 
-document.title = 'hangfeng'
+document.title = "hangfeng";
