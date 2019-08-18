@@ -103,6 +103,6 @@ const getCounter = () => {
   return c
 }
 
-const counter: Counter = getCounter()
-counter()
-console.log(counter, counter.count)
+// const counter: Counter = getCounter()
+// counter()
+// console.log(counter, counter.count)

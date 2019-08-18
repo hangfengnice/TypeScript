@@ -1,0 +1,14 @@
+{
+  "name": "test-array-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/test-array-map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hangfeng",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}

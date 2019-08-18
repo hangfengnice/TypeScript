@@ -54,7 +54,7 @@ const consoleText = (text: string): void => {
 
 let v: void;
 v = undefined;
-v = null;
+// v = null;
 consoleText("abc");
 
 // null 和 undefined

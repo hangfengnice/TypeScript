@@ -59,3 +59,36 @@ const getLengthFunction = (value: string | null): number => (value || '').length
 //     return value.length
 //   }
 // }
+
+// 类型断言
+// function getSpliceStr(num: number | null): string {
+//   function getRes(prefix: string) {
+//     return prefix + num!.toFixed().toString()
+//   }
+//   num = num || 0.1
+//   return getRes('hangfeng-')
+// }
+// console.log(getSpliceStr(2.04))
+
+type TypeString = string
+let str2: TypeString
+type PostionType<T> = {x: T, y: T}
+const position: PostionType<number> = {
+  x: 1,
+  y: 1
+}
+const position2: PostionType<string> = {
+  x: "top",
+  y: "left"
+}
+
+type Childs<T> = {
+  current: T,
+  child?: Childs<T>
+}
+let ccc: Childs<string> = {
+  current: 'first',
+  child: {
+    current: "second"
+  }
+}
