@@ -1,21 +1,24 @@
-function Food() {
-  this.type = 'food'
+class Parent {
+  constructor() {
+    this.name = 'parent'
+  }
+  print() {
+    console.log(this.name);
+  }
 }
 
-Food.prototype.getType = function () {
-  return this.type
+class Child extends Parent {
+  constructor() {
+    super()
+    this.name = 'child'
+  }
+  childPrint() {
+    super.print()
+    console.log(super.name)
+  }
 }
 
+console.log(Child.__proto__ == Parent)
 
-function Vegetable(name) {
-  this.name = name
-}
+let c = new Child()
 
-Vegetable.prototype = new Food()
-
-
-const tomato = new Vegetable('tomato')
-
-
-console.log(tomato, 'tomato');
-console.log(tomato.getType());
