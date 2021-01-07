@@ -1,46 +1,35 @@
+// // //
+// // const age = 7_000
 
-// function setName() {
-//   console.log('get setNmae')
-//   return (target) => {
-//     console.log('setName')
-//   }
-// }
-// function setName1() {
-//   console.log('get setNmae')
-//   return (target) => {
-//     console.log('setName')
-//   }
-// }
-// function setAge1() {
-//   console.log('get setAge')
-//   return (target) => {
-//     console.log('setAge')
-//   }
-// }
+// // const age1 = 700
 
-// // function setAge() {
-// //   console.log('get setAge')
-// //   return () => {
-// //     console.log('setAge')
+// // console.log(age)
+// // class User {
+// //   username: string
+// //   constructor(username: string) {
+// //       this.username = username
+
 // //   }
 // // }
 
-// @setAge1()
-// @setName()
-// class Foo {
+// // interface TodoItem {
+// //   description: string,
+// //   priority?: 'high' | 'medium' | 'low'
+// // }
 
+// // const todo1: TodoItem = {
+// //   description: 'hello',
+// // }
+
+
+// type Info {
+//   name: ''
 // }
 
-function required(target: any, propertyName: string, index: number) {
-  console.log(target, propertyName, index)
-}
+// let value: unknown
 
-class A {
-  name = 'lision'
-  getInfo(@required prefix: string) {
-    return prefix
-  }
-}
 
-let a = new A()
-a.getInfo('helo')
+// let value1: boolean = value
+
+const unknownValue: unknown = [15, 23, 8, 4, 42, 16];
+console.log(unknownValue)
